@@ -1,0 +1,212 @@
+.head{
+    width: 100%;
+    height: 93px;
+    background-color: #f69b87;
+    border-bottom: 2px solid white;
+    position: fixed;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 100;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 40%;
+    float: left;
+
+}
+.logo-pic{
+
+    width: 83px;
+    margin-left: 26px;
+    margin-top: 18px;
+    float: left;
+}
+
+.navi{
+    width: 28%;
+    float: left;
+    padding-left: 221px;
+    
+
+}
+.nav-links{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    color: white;
+    gap: 20px;
+    font-family: "Korolev";
+    font-weight: 500;
+    font-size: 22px;
+    
+
+    
+}
+.nav-links li{
+    display: inline;
+}
+.nav-links a{
+    font-weight: bold;
+}
+.social-icon{
+    float: left;
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly 2px;
+
+    
+    
+
+}
+.fb{
+    width: 30px;
+    margin-top: 30px;
+    padding-left: 5px;
+    cursor: pointer;
+    
+    
+    
+}
+
+.body1{
+    width: 100%;
+    height: 726px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+.image1{
+    width: 100%;
+    height: 726px;
+    
+    margin-top: 114px;
+}
+.text1{
+    
+    
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 74px;
+    position: absolute;
+    
+    
+    top:37%;
+    margin-left: 36px;
+    color: white;
+    
+}
+.button1{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 29px;
+    position: absolute;
+    top: 69%;
+    margin-left: 161px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.body2{
+    width: 100%;
+    float: left;
+    height: 727px;
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+.image2{
+    width: 100%;
+    height: 727px;
+    margin-top: -60px;
+    
+
+}
+.overlay{
+    position:absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(10, 91, 43, 0.8); 
+  padding-left: 192px;
+  padding-right: 187px;
+  padding-bottom: 32px;
+  padding-top: 14px;
+   border-radius: 100px;
+   font-family:  korolev;
+
+}
+.button2{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+.body3{
+    width: 100%;
+    float: left;
+    height: 671px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.image3{
+    width: 100%;
+    height: 690px;
+    margin-top: -60px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: korolev;
+
+}
+
+.footer-link {
+    list-style: none;
+    padding: 020;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-link li {
+    margin: 10px 20px;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-link a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 12px;
+}
